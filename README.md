@@ -150,6 +150,10 @@ src/
 - Compressed object storage
 - Parallelism in checkout
 
+## Related projects
+
+- [SHA-256 Generator](https://github.com/SayanNnd/SHA-256-Generator): the standalone hashing tool whose implementation Atheon builds on.
+  
 ---
 
 ## Author
