@@ -17,6 +17,21 @@ Atheon re-implements the core ideas behind Git: content-addressed storage, a sta
 
 ---
 
+## Install (Windows, no build needed)
+
+1. Download the `.zip` from the [latest release](https://github.com/SayanNnd/Atheon/releases/latest) and extract it.
+2. Double-click `install.bat`. It moves `atheon.exe` to `C:\atheon-bin` and adds that folder to your user PATH. No admin rights needed.
+3. Open a **new** terminal and check that it works:
+
+```powershell
+atheon help
+```
+
+To uninstall, delete `C:\atheon-bin` and remove it from your PATH (Start menu, search "Edit environment variables for your account").
+
+> The files are unsigned, so Windows SmartScreen may warn you about the download or `install.bat`. Click **More info**, then **Run anyway**.
+
+
 ## Build
 
 Requirements: CMake and a C++17 compiler (GCC, Clang, or MSVC).
